@@ -13,6 +13,8 @@
 		46600AD82493FA7300398F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46600AD62493FA7300398F7B /* Main.storyboard */; };
 		46600ADA2493FA7400398F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46600AD92493FA7400398F7B /* Assets.xcassets */; };
 		46600ADD2493FA7400398F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46600ADB2493FA7400398F7B /* LaunchScreen.storyboard */; };
+		46600AE52493FB4800398F7B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AE42493FB4800398F7B /* CartView.swift */; };
+		46600AE72493FBDA00398F7B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AE62493FBDA00398F7B /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		46600AD92493FA7400398F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46600ADC2493FA7400398F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46600ADE2493FA7400398F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46600AE42493FB4800398F7B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		46600AE62493FBDA00398F7B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		46600ACF2493FA7300398F7B /* Shopping Cart */ = {
 			isa = PBXGroup;
 			children = (
+				46600AE62493FBDA00398F7B /* Extension.swift */,
+				46600AE42493FB4800398F7B /* CartView.swift */,
 				46600AD02493FA7300398F7B /* AppDelegate.swift */,
 				46600AD22493FA7300398F7B /* SceneDelegate.swift */,
 				46600AD42493FA7300398F7B /* ViewController.swift */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46600AE72493FBDA00398F7B /* Extension.swift in Sources */,
 				46600AD52493FA7300398F7B /* ViewController.swift in Sources */,
 				46600AD12493FA7300398F7B /* AppDelegate.swift in Sources */,
+				46600AE52493FB4800398F7B /* CartView.swift in Sources */,
 				46600AD32493FA7300398F7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
