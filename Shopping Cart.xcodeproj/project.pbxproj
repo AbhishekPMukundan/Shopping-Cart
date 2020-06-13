@@ -15,6 +15,15 @@
 		46600ADD2493FA7400398F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46600ADB2493FA7400398F7B /* LaunchScreen.storyboard */; };
 		46600AE52493FB4800398F7B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AE42493FB4800398F7B /* CartView.swift */; };
 		46600AE72493FBDA00398F7B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AE62493FBDA00398F7B /* Extension.swift */; };
+		46600AE9249411B600398F7B /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AE8249411B600398F7B /* ItemView.swift */; };
+		46600AF12494EA6100398F7B /* Items.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 46600AF02494EA6000398F7B /* Items.mlmodel */; };
+		46600AF32494ECFC00398F7B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46600AF22494ECFC00398F7B /* ItemModel.swift */; };
+		46600AF92494F68900398F7B /* Maggi.png in Resources */ = {isa = PBXBuildFile; fileRef = 46600AF42494F68700398F7B /* Maggi.png */; };
+		46600AFA2494F68900398F7B /* Wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 46600AF52494F68800398F7B /* Wine.png */; };
+		46600AFB2494F68900398F7B /* cocacola.png in Resources */ = {isa = PBXBuildFile; fileRef = 46600AF62494F68800398F7B /* cocacola.png */; };
+		46600AFC2494F68900398F7B /* Jam.png in Resources */ = {isa = PBXBuildFile; fileRef = 46600AF72494F68800398F7B /* Jam.png */; };
+		46600AFD2494F68900398F7B /* Ketchup.png in Resources */ = {isa = PBXBuildFile; fileRef = 46600AF82494F68900398F7B /* Ketchup.png */; };
+		46600B052494F7A300398F7B /* Demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 46600B042494F7A300398F7B /* Demo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		46600ADE2493FA7400398F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46600AE42493FB4800398F7B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		46600AE62493FBDA00398F7B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		46600AE8249411B600398F7B /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		46600AF02494EA6000398F7B /* Items.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Items.mlmodel; sourceTree = "<group>"; };
+		46600AF22494ECFC00398F7B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		46600AF42494F68700398F7B /* Maggi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maggi.png; sourceTree = "<group>"; };
+		46600AF52494F68800398F7B /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wine.png; sourceTree = "<group>"; };
+		46600AF62494F68800398F7B /* cocacola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocacola.png; sourceTree = "<group>"; };
+		46600AF72494F68800398F7B /* Jam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jam.png; sourceTree = "<group>"; };
+		46600AF82494F68900398F7B /* Ketchup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ketchup.png; sourceTree = "<group>"; };
+		46600B042494F7A300398F7B /* Demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Demo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +78,74 @@
 		46600ACF2493FA7300398F7B /* Shopping Cart */ = {
 			isa = PBXGroup;
 			children = (
-				46600AE62493FBDA00398F7B /* Extension.swift */,
-				46600AE42493FB4800398F7B /* CartView.swift */,
+				46600B032494F6E100398F7B /* Model */,
+				46600B022494F6CF00398F7B /* View Controller */,
+				46600B012494F6C100398F7B /* View */,
+				46600B002494F6B100398F7B /* Extension */,
+				46600AFF2494F6A000398F7B /* ML Model */,
+				46600AFE2494F69200398F7B /* Images */,
+				46600B042494F7A300398F7B /* Demo.mov */,
 				46600AD02493FA7300398F7B /* AppDelegate.swift */,
 				46600AD22493FA7300398F7B /* SceneDelegate.swift */,
-				46600AD42493FA7300398F7B /* ViewController.swift */,
 				46600AD62493FA7300398F7B /* Main.storyboard */,
 				46600AD92493FA7400398F7B /* Assets.xcassets */,
 				46600ADB2493FA7400398F7B /* LaunchScreen.storyboard */,
 				46600ADE2493FA7400398F7B /* Info.plist */,
 			);
 			path = "Shopping Cart";
+			sourceTree = "<group>";
+		};
+		46600AFE2494F69200398F7B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				46600AF62494F68800398F7B /* cocacola.png */,
+				46600AF72494F68800398F7B /* Jam.png */,
+				46600AF82494F68900398F7B /* Ketchup.png */,
+				46600AF42494F68700398F7B /* Maggi.png */,
+				46600AF52494F68800398F7B /* Wine.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		46600AFF2494F6A000398F7B /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				46600AF02494EA6000398F7B /* Items.mlmodel */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
+		46600B002494F6B100398F7B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46600AE62493FBDA00398F7B /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		46600B012494F6C100398F7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46600AE8249411B600398F7B /* ItemView.swift */,
+				46600AE42493FB4800398F7B /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46600B022494F6CF00398F7B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46600AD42493FA7300398F7B /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		46600B032494F6E100398F7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46600AF22494ECFC00398F7B /* ItemModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46600AFC2494F68900398F7B /* Jam.png in Resources */,
+				46600AFB2494F68900398F7B /* cocacola.png in Resources */,
+				46600AFD2494F68900398F7B /* Ketchup.png in Resources */,
 				46600ADD2493FA7400398F7B /* LaunchScreen.storyboard in Resources */,
+				46600B052494F7A300398F7B /* Demo.mov in Resources */,
+				46600AF92494F68900398F7B /* Maggi.png in Resources */,
+				46600AFA2494F68900398F7B /* Wine.png in Resources */,
 				46600ADA2493FA7400398F7B /* Assets.xcassets in Resources */,
 				46600AD82493FA7300398F7B /* Main.storyboard in Resources */,
 			);
@@ -145,6 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46600AE72493FBDA00398F7B /* Extension.swift in Sources */,
+				46600AF12494EA6100398F7B /* Items.mlmodel in Sources */,
+				46600AF32494ECFC00398F7B /* ItemModel.swift in Sources */,
+				46600AE9249411B600398F7B /* ItemView.swift in Sources */,
 				46600AD52493FA7300398F7B /* ViewController.swift in Sources */,
 				46600AD12493FA7300398F7B /* AppDelegate.swift in Sources */,
 				46600AE52493FB4800398F7B /* CartView.swift in Sources */,
@@ -293,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Shopping Cart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Shopping Cart/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
